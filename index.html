@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+  <meta name="viewport" content="width=device-width, initial-scale="1.0>
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body style="background:#F2E9E4">
+  <div id="agrupar">
+
+  <header id="cabecera">
+    <div class="neons"> <h1 style="color: white;">Mi primer blog</h1></div>
+     
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#MiCv">Mi curriculum</a></li>
+    <li><a href="#Upsm">Video</a></li>
+    <li><a href="#cabecera">Inicio</a></li>
+    <li><a href="#fotos">Fotos</a></li>
+    <li><a href="#Contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="seccion">
+      <article><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1 id="MiCv">Mi CV</h1>
+                  <h4>Currículum Vitae de Luis Vargas</h4>
+              </hgroup>
+              <time datetime="2024-03-04" pubdate>
+                    publicado 04-03-2024
+              </time>
+        </header><br>
+          <h2>Datos personales</h2>
+
+  <p>
+    <strong>Nombre y Apellidos:</strong> Luis Gerardo Vargas Puertos<br>
+    <strong>Dirección:</strong> Andador 3, #18, unidad pluviosilla entre norte 10 y 8 y oriente 31 y 27<br>
+    <strong>Num SS:</strong> 25210317936
+  </p>
+<br>
+  <h2>Educación y formación</h2>
+
+  <p>
+    <strong>2015-2018:</strong> Estudios en tecnico en estructuras metalicas <em>Escuela Secundaria T&eacute;cnica Industrial No.84</em> (Orizaba).<br>
+    <strong>2018-2021:</strong> Estudios bachilleratos con especialidad de tecnico en programación<em>Centro Bachillerato Tecnológico Industrial y de Servicios No.142</em> (Mariano Escobedo).
+  </p>
+<br>
+  <h2>Capacidades y aptitudes personales</h2>
+  <ul>
+    <li>Capacidad de liderazgo</li>
+    <li>Buena capacidad logica</li>
+    <li>Tolerancia ante el estrés</li>
+    <li>Colaborativo</li>
+  </ul>
+<br>
+  <h3>Idiomas</h3>
+  <p>
+    <strong>Inglés:</strong> Nivel Alto. Título nivel C1, por la <em>Escuela Oficial de Idiomas de ITOrizaba</em>.<br>
+  </p>
+          <figure>
+                <video width="600" height="320" controls id="Upsm">
+  <source src="VideoMi.mp4" type="video/mp4">
+</video>
+                <figcaption>
+                    Un poco sobre mi
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>Tecnol&oacute;gico de Orizaba</h1>
+                <h4>Ubicaci&oacute;n de la escuela</h4>
+            </hgroup>
+            <time datetime="2024-03-04" pubdate>
+                    publicado 04-03-2024
+              </time>
+         </header>         
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3775.734935174639!2d-97.10157312626993!3d18.85445005889326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502aeb2d35fed%3A0xba5f3840b0862949!2sTecNM%20-%20Campus%20Orizaba!5e0!3m2!1ses!2smx!4v1709618388399!5m2!1ses!2smx"  width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+               
+               
+         <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+   
+    <article id="fotos">
+<h1>Fotos</h1>
+     
+  <img src="img/Yo.jpg" height="200" width="200" class="imagen" style=" border-radius: 100%" >
+  <img src="img/L1.jpg" height="200" width="200" class="imagen" style=" border-radius: 100%">
+  <img src="img/L3.jpg" height="200" width="200" class="imagen" style=" border-radius: 100%"><br>
+  <img src="img/L2.jpg" height="200" width="200" class="imagen" style=" border-radius: 100%">
+
+   <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article>
+<article id="Contacto">
+       <h1>Contactame</h1>
+<table width="300" height="100">
+  <tr><td><img src="img/whatsapp.png" style="height: 90%;
+  width: 100%;"></td><td>2721674268</td></tr>
+  <tr><td><img src="img/gmail.png" style="height: 90%;
+  width: 100%;"></td><td>vargaspuertosluisgerardo@gmail.com</td></tr>
+</table>
+              
+       <footer>
+            <p>comentarios (0)</p>
+          </footer>
+    </article>
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote>Sigueme en mis redes sociales</blockquote>
+      <blockquote>Toca la imagen y te llevara mis respectivos perfiles &#128516;</blockquote>
+      
+     <a href="https://www.facebook.com/luisgerardo.vargaspuertos.7?mibextid=ZbWKwL">
+       <figure>
+         <img src="img/facebook.jpg" alt="facebook" id="luis41"class="ra">
+       </figure>
+     </a>
+    
+     <a href="https://www.instagram.com/luisvar03?igsh=eTVxa3AzM2VhOWFr">
+        <figure>    
+          <img src="img/instagram.jpg" alt="instagram" class="ra">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2010-2011
+      <address>
+          <a href="http://www.itorizaba.edu.mx">ITO</a>
+      </address>
+  </footer>
+</div> <!--fin div agrupar-->
+</body>
+</html>
